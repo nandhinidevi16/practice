@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Cakes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Delicious Cakes</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cakes">Our Cakes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Freshly Baked Cakes for Every Occasion</h2>
+            <p>Indulge in our wide variety of cakes made with the finest ingredients.</p>
+            <img src="https://via.placeholder.com/800x400?text=Cake+Display" alt="Cake Display" class="hero-image">
+        </section>
+        <section id="cakes">
+            <h2>Our Cake Selection</h2>
+            <div class="cake-grid">
+                <div class="cake-item">
+                    <img src="https://via.placeholder.com/300x200?text=Chocolate+Cake" alt="Chocolate Cake">
+                    <h3>Chocolate Cake</h3>
+                    <p>Rich and decadent chocolate cake.</p>
+                    <button class="order-btn" data-cake="Chocolate Cake">Order Now</button>
+                </div>
+                <div class="cake-item">
+                    <img src="https://via.placeholder.com/300x200?text=Vanilla+Cake" alt="Vanilla Cake">
+                    <h3>Vanilla Cake</h3>
+                    <p>Classic vanilla cake with buttercream frosting.</p>
+                    <button class="order-btn" data-cake="Vanilla Cake">Order Now</button>
+                </div>
+                <div class="cake-item">
+                    <img src="https://via.placeholder.com/300x200?text=Strawberry+Cake" alt="Strawberry Cake">
+                    <h3>Strawberry Cake</h3>
+                    <p>Fresh strawberry cake topped with cream.</p>
+                    <button class="order-btn" data-cake="Strawberry Cake">Order Now</button>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Delicious Cakes. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
